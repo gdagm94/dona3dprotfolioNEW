@@ -1,9 +1,9 @@
 import './style.css';
-import * as THREE from './node_modules/three';
-import * as dat from './node_modules/dat.gui';
-import gsap from './node_modules/gsap';
-import Stats from './node_modules/three/examples/jsm/libs/stats.module.js';
-import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls.js';
+import * as THREE from 'three';
+import * as dat from 'dat.gui';
+import gsap from 'gsap';
+import Stats from 'three/examples/jsm/libs/stats.module.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js';
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
