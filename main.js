@@ -1,13 +1,12 @@
-import './style.css';
-import * as THREE from 'three';
+import * as THREE from 'https://cdn.skypack.dev/three';
 import * as dat from 'https://cdn.skypack.dev/dat.gui';
-import gsap from 'gsap';
-import Stats from 'three/examples/jsm/libs/stats.module';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader';
-import { FontLoader } from 'three/examples/jsm/loaders/FontLoader';
-import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry';
+import gsap from 'https://cdn.skypack.dev/gsap';
+import Stats from 'https://cdn.skypack.dev/three/examples/jsm/libs/stats.module.js';
+import { OrbitControls } from 'https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/DRACOLoader.js';
+import { FontLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/FontLoader.js';
+import { TextGeometry } from 'https://cdn.skypack.dev/three/examples/jsm/geometries/TextGeometry.js';
 
 // VARIABLES
 let theme = 'light';
