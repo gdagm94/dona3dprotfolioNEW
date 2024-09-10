@@ -1,16 +1,8 @@
-// vite.config.js
 import { defineConfig } from 'vite';
-import path from 'path';
 
 export default defineConfig({
-  base: '/dona3dprotfolioNEW/', // GitHub Pages repo name
-  resolve: {
-    alias: {
-      'dat.gui': path.resolve(__dirname, 'node_modules/dat.gui/build/dat.gui.module.js'), // Only keep the alias for dat.gui
-    },
-  },
+  base: '/dona3dprotfolioNEW/', // Keep the base path for GitHub Pages
   build: {
-    outDir: 'dist', // Ensure this matches your output directory
+    outDir: 'dist', // Output directory for the build
   },
 });
-
