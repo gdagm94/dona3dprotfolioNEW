@@ -1,12 +1,12 @@
-import * as THREE from 'https://cdn.skypack.dev/three';
-import * as dat from 'https://cdn.skypack.dev/dat.gui';
-import gsap from 'https://cdn.skypack.dev/gsap';
-import Stats from 'https://cdn.skypack.dev/three/examples/jsm/libs/stats.module.js';
-import { OrbitControls } from 'https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js';
-import { GLTFLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/GLTFLoader.js';
-import { DRACOLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/DRACOLoader.js';
-import { FontLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/FontLoader.js';
-import { TextGeometry } from 'https://cdn.skypack.dev/three/examples/jsm/geometries/TextGeometry.js';
+import * as THREE from 'https://unpkg.com/three@0.141.0/build/three.module.js';
+import * as dat from 'https://unpkg.com/dat.gui@0.7.7/build/dat.gui.module.js';
+import gsap from 'https://unpkg.com/gsap@3.9.1/dist/gsap.js';
+import Stats from 'https://unpkg.com/three@0.141.0/examples/jsm/libs/stats.module.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://unpkg.com/three@0.141.0/examples/jsm/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'https://unpkg.com/three@0.141.0/examples/jsm/loaders/DRACOLoader.js';
+import { FontLoader } from 'https://unpkg.com/three@0.141.0/examples/jsm/loaders/FontLoader.js';
+import { TextGeometry } from 'https://unpkg.com/three@0.141.0/examples/jsm/geometries/TextGeometry.js';
 
 // VARIABLES
 let theme = 'light';
