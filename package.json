@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "host": "vite --host",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "git config --global user.email 'gdagm94@gmail.com' && git config --global user.name 'gdagm94' && gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
