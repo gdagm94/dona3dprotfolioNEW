@@ -1,7 +1,7 @@
 import './style.css';
 import * as THREE from './node_modules/three/build/three.module.js';
 import * as dat from './node_modules/dat.gui/build/dat.gui.module.js';
-import gsap from './node_modules/gsap/gsap-core.js';
+import gsap from './node_modules/gsap/index.js';
 import Stats from 'three/examples/jsm/libs/stats.module.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
