@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/', // Keep the base path for GitHub Pages or Cloudflare Pages
+  base: '/dona3dprotfolioNEW/', // Keep the base path for GitHub Pages or Cloudflare Pages
   build: {
     outDir: 'dist', // Output directory for the build
     rollupOptions: {
