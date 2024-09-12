@@ -1,7 +1,6 @@
 import './style.css';
 
 // You can still use the classes and functions from the CDN-loaded libraries directly:
-const gui = new dat.GUI();
 gsap.to(someObject, { duration: 1, x: 100 });
 
 // Keep other imports for additional tools and controls from local files or CDN
