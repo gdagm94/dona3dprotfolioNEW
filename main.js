@@ -1,15 +1,13 @@
 import './style.css';
-
-// You can still use the classes and functions from the CDN-loaded libraries directly:
-gsap.to(someObject, { duration: 1, x: 100 });
-
-// Keep other imports for additional tools and controls from local files or CDN
-import Stats from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/libs/stats.module.js';
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/controls/OrbitControls.js';
-import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/loaders/GLTFLoader.js';
-import { DRACOLoader } from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/loaders/DRACOLoader.js';
-import { FontLoader } from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/loaders/FontLoader.js';
-import { TextGeometry } from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/geometries/TextGeometry.js';
+import * as THREE from 'three';
+import * as dat from 'dat.gui';
+import gsap from 'gsap';
+import Stats from 'three/addons/libs/stats.module.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader';
+import { FontLoader } from 'three/addons/loaders/FontLoader.js';
+import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
 
 // VARIABLES
 let theme = 'light';

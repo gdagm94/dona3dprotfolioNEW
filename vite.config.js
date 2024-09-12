@@ -1,22 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/dona3dprotfolioNEW/', // Keep the base path for GitHub Pages or Cloudflare Pages
+  base: '/dona3dprotfolioNEW/', // Keep the base path for GitHub Pages
   build: {
     outDir: 'dist', // Output directory for the build
-    rollupOptions: {
-      external: [
-        'three',      // Exclude three.js from bundling
-        'dat.gui',    // Exclude dat.gui from bundling
-        'gsap',       // Exclude gsap from bundling
-      ],
-      output: {
-        globals: {
-          three: 'THREE',
-          'dat.gui': 'dat',
-          gsap: 'gsap',
-        },
-      },
-    },
   },
 });
