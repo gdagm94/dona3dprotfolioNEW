@@ -1,13 +1,16 @@
 import './style.css';
-import * as THREE from './node_modules/three/build/three.module.js';
-import * as dat from './node_modules/dat.gui/build/dat.gui.module.js';
-import { gsap } from "./node_modules/gsap/index.js";
-import Stats from './node_modules/three/examples/jsm/libs/stats.module.js';
-import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls.js';
-import { GLTFLoader } from './node_modules/three/examples/jsm/loaders/GLTFLoader.js';
-import { DRACOLoader } from './node_modules/three/examples/jsm/loaders/DRACOLoader.js';
-import { FontLoader } from './node_modules/three/examples/jsm/loaders/FontLoader.js';
-import { TextGeometry } from './node_modules/three/examples/jsm/geometries/TextGeometry.js';
+
+// You can still use the classes and functions from the CDN-loaded libraries directly:
+const gui = new dat.GUI();
+gsap.to(someObject, { duration: 1, x: 100 });
+
+// Keep other imports for additional tools and controls from local files or CDN
+import Stats from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/libs/stats.module.js';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/loaders/DRACOLoader.js';
+import { FontLoader } from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/loaders/FontLoader.js';
+import { TextGeometry } from 'https://cdn.jsdelivr.net/npm/three@0.133.1/examples/jsm/geometries/TextGeometry.js';
 
 // VARIABLES
 let theme = 'light';
