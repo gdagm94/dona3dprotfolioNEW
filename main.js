@@ -624,7 +624,7 @@ function projectsMenuListener() {
       url: project.url,
     };
     projectPlane.position.set(
-      0.3 + i * 0.8 * colIndex,
+      0.25 + i * 0.8 * colIndex,
       1 - rowIndex * 0.5,
       -1.15
     );
