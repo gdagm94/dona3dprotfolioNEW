@@ -1,5 +1,6 @@
 import './style.css';
 import * as THREE from 'three';
+import * as THREE_ADDONS from 'three-addons';
 import * as dat from 'dat.gui';
 import gsap from 'gsap';
 import Stats from 'three/addons/libs/stats.module.js';
