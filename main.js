@@ -1,6 +1,6 @@
 import './style.css';
 import * as THREE from './node_modules/three/build/three.module.js';
-import * as dat from 'dat.gui';
+import * as dat from './node_modules/dat.gui/build/dat.gui.js';
 import gsap from 'gsap';
 import Stats from 'three/addons/libs/stats.module.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
