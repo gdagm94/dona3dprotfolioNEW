@@ -138,11 +138,11 @@ gltfLoader.load(
     video.addEventListener('loadeddata', () => {
       video.play(); // Start playing only when the video is fully loaded
     });
-    
+
     // create video texture
     const videoTexture = new THREE.VideoTexture(video);
-    videoTexture.minFilter = THREE.NearestFilter;
-    videoTexture.magFilter = THREE.NearestFilter;
+    videoTexture.minFilter = THREE.LinearFilter;
+    videoTexture.magFilter = THREE.LinearFilter;
     videoTexture.generateMipmaps = false;
     videoTexture.encoding = THREE.sRGBEncoding;
 
