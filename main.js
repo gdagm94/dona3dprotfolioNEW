@@ -129,7 +129,7 @@ gltfLoader.load(
 
     // load video
     const video = document.createElement('video');
-    video.src = 'textures/cybersite.mov';
+    video.src = '/dist/textures/cybersite.mov';
     video.muted = true;
     video.playsInline = true;
     video.autoplay = true;
