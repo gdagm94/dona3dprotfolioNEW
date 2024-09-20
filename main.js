@@ -135,6 +135,10 @@ gltfLoader.load(
     video.autoplay = true;
     video.loop = true;
 
+    video.addEventListener('loadeddata', () => {
+      video.play(); // Start playing only when the video is fully loaded
+    });
+    
     // create video texture
     const videoTexture = new THREE.VideoTexture(video);
     videoTexture.minFilter = THREE.NearestFilter;
